@@ -1,0 +1,26 @@
+# Secrets
+Tri_keys.env
+.env
+*.key
+
+# Résultats et journaux
+*_LLM.xlsx
+*_LLM.xlsx.tmp
+*_LLM.log
+*.log
+
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+
+# Données locales (classeurs source)
+*.xlsx
+!*.example
+
+# OS / éditeurs
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
